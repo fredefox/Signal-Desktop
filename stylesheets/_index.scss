@@ -27,6 +27,16 @@
     max-height: calc(100% - 88px);
   }
 }
+
+@media (max-width: 50em) {
+  .gutter {
+     display: none;
+  }
+  .conversation-stack {
+    padding-left: 0px;
+  }
+}
+
 .network-status-container {
   .network-status {
     background: url('../images/error_red.svg') no-repeat left 10px center;
